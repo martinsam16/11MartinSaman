@@ -1,0 +1,16 @@
+master password:
+abey-z4u4-sy43
+
+postgre:
+odoo14
+openpg
+openpgpwd
+
+odoo:
+admin
+admin
+
+#crear modulo
+## Comando para generar Estructura para Desarrollo
+<module_name> <path_create>
+"C:\Program Files\Odoo 14.0e.20201012\python\python.exe" odoo-bin scaffold martinsam_module 11MartinSaman
