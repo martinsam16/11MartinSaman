@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_martinsam_module_martinsam_module,martinsam_module.martinsam_module,model_martinsam_module_martinsam_module,base.group_user,1,1,1,1
+martinsam_module.persona,martinsam_module.persona,model_martinsam_module_persona,"",1,1,1,1

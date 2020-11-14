@@ -1,13 +1,15 @@
 # -*- coding: utf-8 -*-
 
-# from odoo import models, fields, api
+from odoo import models, fields, api
 
 
-# class martinsam_module(models.Model):
-#     _name = 'martinsam_module.martinsam_module'
-#     _description = 'martinsam_module.martinsam_module'
+class Persona(models.Model):
+    _name = 'martinsam_module.persona'
+    _description = 'Persona model'
 
-#     name = fields.Char()
+    nombres = fields.Char(string='Nombres persona')
+    apellidos = fields.Char(string='Apellidos de la persona')
+    fecha_nacimiento = fields.Date(string='Fecha de nacimiento')
 #     value = fields.Integer()
 #     value2 = fields.Float(compute="_value_pc", store=True)
 #     description = fields.Text()
