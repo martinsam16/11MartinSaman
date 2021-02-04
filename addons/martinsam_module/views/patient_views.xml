@@ -11,6 +11,7 @@
                             <field name="surname"/>
                         </group>
                         <group>
+                            <field name="partner_id" domain="[('is_company','=', True)]"/>
                             <field name="birthdate"/>
                         </group>
                     </sheet>

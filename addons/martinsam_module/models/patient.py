@@ -10,3 +10,5 @@ class Patient(models.Model):
     name = fields.Char(string='Name patient', required=True)
     surname = fields.Char(string='Surname', required=True)
     birthdate = fields.Date(string='Birthdate')
+
+    partner_id = fields.Many2one(comodel_name='res.partner', string='Patient contact')
