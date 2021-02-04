@@ -1,12 +1,12 @@
 .PHONY: run restart logs
 
 run:
+	make down
 	docker-compose up --d --build
 	make logs
 
-restart:
-	docker-compose down
-	make run
+stop:
+	docker-compose stop
 
 down:
 	docker-compose down

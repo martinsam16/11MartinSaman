@@ -125,3 +125,8 @@ dmypy.json
 .pyre/
 /postgresql/
 /.idea/
+# From https://github.com/odoo/odoo/tree/14.0/odoo
+/odoo/
+# Enterprise addons
+/enterprise-14.0/
+/data_dir/
