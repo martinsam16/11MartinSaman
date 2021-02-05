@@ -3,7 +3,15 @@
 run:
 	make down
 	docker-compose up --d --build
-	make logs
+
+restart:
+	make stop
+	make start
+
+
+start:
+	docker-compose start
+
 
 stop:
 	docker-compose stop
